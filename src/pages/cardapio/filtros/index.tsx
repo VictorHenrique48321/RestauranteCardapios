@@ -14,6 +14,11 @@ interface Props {
 function Filtros({filtro, setFiltro}: Props) {
 
   function selecionarFiltros(opcao: IOpcao) {
+
+    if(filtro === opcao.id) {
+      return setFiltro(null)
+    }
+
     return setFiltro(opcao.id)
   }
 
