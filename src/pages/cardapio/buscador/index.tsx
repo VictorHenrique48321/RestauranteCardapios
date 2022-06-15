@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import { CgSearch } from "react-icons/cg"
 
 import styles from "./Buscador.module.scss"
